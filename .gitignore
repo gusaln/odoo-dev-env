@@ -1,0 +1,10 @@
+postgresql/
+data/odoo-server.log
+data/addons/
+data/sessions/
+data/filestore/
+
+17/
+l10n_ve/
+
+.env
