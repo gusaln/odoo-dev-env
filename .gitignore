@@ -4,6 +4,7 @@ data/addons/
 data/sessions/
 data/filestore/
 
-17/
+src/
+enterprise/
 
 .env
