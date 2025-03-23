@@ -1,7 +1,7 @@
 #!/bin/bash
 
-ODOO_BIN='./src/odoo-bin --config ./config/odoo.cfg'
+RUN=`pwd`/run.sh
 
-tmux new -d -s odoo-dev
-tmux neww -dS -t odoo-dev -n docker 'docker compose up'
-tmux neww -dS -t odoo-dev -n odoo "sleep 5s && $ODOO_BIN $@"
+tmux new -d -sS odoo-dev
+tmux neww -d -tS odoo-dev -n docker 'docker compose up'
+tmux neww -d -tS odoo-dev -n odoo "sleep 5s && $RUN $@"

@@ -1,5 +1,6 @@
 #!/bin/bash
 
-ODOO_BIN='./src/odoo-bin --config ./config/odoo.cfg'
+ODOO_SRC="/tmp"
+ODOO_BIN="$ODOO_SRC/odoo-bin --config ./config/odoo.cfg"
 
 $ODOO_BIN $@
