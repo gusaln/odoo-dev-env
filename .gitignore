@@ -4,6 +4,7 @@ data/addons/
 data/sessions/
 data/filestore/
 
+addons.d/
 src/
 enterprise/
 l10n_ve/
