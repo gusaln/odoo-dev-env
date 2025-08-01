@@ -1,0 +1,6 @@
+[[config]]
+name = "SETUP"
+extends = "base_setup"
+addons_paths = [
+    "${workspaceFolder}/l10n_ve",
+]
